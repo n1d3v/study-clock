@@ -9,4 +9,4 @@ function updateClock() {
 }
 
 setInterval(updateClock, 1000);
-updateClock(); // To display the clock immediately upon page load
+updateClock(); 
