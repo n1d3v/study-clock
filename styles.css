@@ -1,0 +1,37 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .gradient-bg {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #ff512f, #dd2476, #000a8f);
+    background-size: 200% 200%;
+    animation: gradientAnimation 8s ease-in-out infinite;
+   }
+  
+  .clock {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6em;
+    color: white;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
