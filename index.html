@@ -12,6 +12,22 @@
   <div class="gradient-bg">
     <div class="clock">
       <span id="clock"></span>
+      <span id="amPmText"></span>
+    </div>
+    <button id="toggleButton" class="toggle-button" style="position: absolute; bottom: 20px; right: 120px;">AM</button>
+    <button id="settingsToggleButton" class="toggle-button" style="position: absolute; bottom: 20px; right: 15px;">Settings</button>
+    <div class="settings-menu" id="settingsMenu">
+      <h3>Settings</h3>
+      <label>These are buggy, still in development</label>
+      <br>
+      <label for="colorPicker1">First Color:</label>
+      <input type="color" id="colorPicker1" name="colorPicker1" value="#8D4274">
+      <br>
+      <label for="colorPicker2">Second Color:</label>
+      <input type="color" id="colorPicker2" name="colorPicker2" value="#7B356B">
+      <br>
+      <label for="colorPicker3">Third Color:</label>
+      <input type="color" id="colorPicker3" name="colorPicker3" value="#440F50">
     </div>
   </div>
   <script src="script.js"></script>
